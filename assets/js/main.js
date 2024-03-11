@@ -173,7 +173,7 @@ bottone4.addEventListener("click", function(){
         audioSfondo.play();
         bottone4.textContent = "Interrompi";
     } else {
-        document.getElementById("big_video").src = '/assets/img/luffy.jpg';
+        document.getElementById("big_video").src = 'assets/img/luffy.jpg';
         audioSfondo.pause();
         audioSfondo.currentTime = 0;
         bottone4.textContent = "Avvia"

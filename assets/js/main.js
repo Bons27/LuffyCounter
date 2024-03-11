@@ -5,7 +5,7 @@ document.body.appendChild(container);
 //SFONDO
 const img = document.createElement("img");
 img.id = "big_video";
-img.src = "/assets/img/luffy.jpg";
+img.src = "assets/img/";
 img.alt = "luffy gif"
 container.appendChild(img);
 

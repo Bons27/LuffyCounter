@@ -196,9 +196,10 @@ function riproduciBinkSake() {
 };
 
 let audioSfondo = new Audio ('assets/audio/BinkSake.mp3')
-audioSfondo.addEventListener("ended", function() {
-    audioSfondo.currentTime = 0;
-    audioSfondo.play();
+    audioSfondo.addEventListener("ended", function() {
+        audioSfondo.currentTime = 0;
+        audioSfondo.play();
+        audioSfondo.volume = 0.3;
 });
 
 const audioReset = new Audio('assets/audio/monkeyDluffy.mp3');

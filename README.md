@@ -6,8 +6,8 @@
 
 Funzionalità:<br>
 Il contatore può essere aumentato, diminuito o resettato utilizzando i pulsanti nella parte inferiore dello schermo.
-Quando il contatore raggiunge determinati valori, vengono visualizzate immagini e riprodotti suoni relativi alle varie forme di Luffy (Gear Second, Gear Fourth, Gear Fifth).
-C'è un'immagine di sfondo e un suono di sottofondo che possono essere riprodotti o interrotti cliccando sul pulsante "Avvia/Interrompi" nella parte superiore dello schermo.
+Quando il contatore raggiunge determinati valori <i>(25, 50 , 75 e 100)<i>, vengono visualizzate immagini e riprodotti suoni relativi alle varie forme di Luffy <b>(Gear Second, Gear Fourth, Gear Fifth)<b>.
+C'è un'immagine di sfondo e un suono di sottofondo che possono essere riprodotti o interrotti cliccando sul pulsante <b>"Avvia/Interrompi"<b> nella parte superiore dello schermo.
 
 Come utilizzarlo:<br>
 - Apri il file index.html nel tuo browser preferito.
@@ -18,7 +18,7 @@ Come utilizzarlo:<br>
 Struttura del file:<br>
 - index.html: la pagina HTML che contiene il markup per il contatore e i relativi controlli.
 - styles.css: le regole CSS per lo stile della pagina.
-- script.js: il codice JavaScript che gestisce il funzionamento del contatore.
+- main.js: il codice JavaScript che gestisce il funzionamento del contatore.
 - assets/img: la directory che contiene le immagini utilizzate nel contatore.
 - assets/audio: la directory che contiene i file audio utilizzati nel contatore.
 
@@ -29,4 +29,4 @@ Tecnologie utilizzate:<br>
 
 
 Autore:
-Bons27 (https://github.com/Bons27)
+<b>ons27 (https://github.com/Bons27)<b>

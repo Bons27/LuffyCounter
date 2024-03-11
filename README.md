@@ -1,5 +1,6 @@
 <h1>Luffy's Counter</h1>
 
+ <a href = "https://bons27.github.io/LuffyCounter/assets/img/luffy.jpg">
 
 <i>Questo è un semplice contatore animato dedicato al personaggio di Monkey D. Luffy, il protagonista di One Piece.</i>
 
@@ -27,5 +28,5 @@ Tecnologie utilizzate:<br>
 - JavaScript
 
 
-Autore
+Autore:
 Bons27 (https://github.com/Bons27)

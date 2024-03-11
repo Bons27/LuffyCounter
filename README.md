@@ -6,8 +6,8 @@
 
 Funzionalità:<br>
 Il contatore può essere aumentato, diminuito o resettato utilizzando i pulsanti nella parte inferiore dello schermo.
-Quando il contatore raggiunge determinati valori <i>(25, 50 , 75 e 100)<i>, vengono visualizzate immagini e riprodotti suoni relativi alle varie forme di Luffy <b>(Gear Second, Gear Fourth, Gear Fifth)<b>.
-C'è un'immagine di sfondo e un suono di sottofondo che possono essere riprodotti o interrotti cliccando sul pulsante <b>"Avvia/Interrompi"<b> nella parte superiore dello schermo.
+Quando il contatore raggiunge determinati valori <i>(25, 50 , 75 e 100)</i>, vengono visualizzate immagini e riprodotti suoni relativi alle varie forme di Luffy <b>(Gear Second, Gear Fourth, Gear Fifth)</b>.
+C'è un'immagine di sfondo e un suono di sottofondo che possono essere riprodotti o interrotti cliccando sul pulsante <b>"Avvia/Interrompi"</b> nella parte superiore dello schermo.
 
 Come utilizzarlo:<br>
 - Apri il file index.html nel tuo browser preferito.
@@ -29,4 +29,4 @@ Tecnologie utilizzate:<br>
 
 
 Autore:
-<b>ons27 (https://github.com/Bons27)<b>
+<b>ons27 (https://github.com/Bons27)</b>

@@ -5,8 +5,8 @@ document.body.appendChild(container);
 //SFONDO
 const img = document.createElement("img");
 img.id = "big_video";
-img.src = "assets/img/luffy.gif";
-img.alt = "luffy gif"
+img.src = "assets/img/luffy.jpg";
+img.alt = "luffy jpg"
 container.appendChild(img);
 
 //HEADER
@@ -208,6 +208,3 @@ function riproduciAudio(source) {
     audio.play();
 }
 
-// riproduciAudio("/assets/audio/gear2.mp3");
-// riproduciAudio("/assets/audio/gear4.mp3");
-// riproduciAudio("/assets/audio/luffygear5.mp3");

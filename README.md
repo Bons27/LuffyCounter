@@ -29,4 +29,4 @@ Tecnologie utilizzate:<br>
 
 
 Autore:
-<b>ons27 (https://github.com/Bons27)</b>
+<b>Bons27 (https://github.com/Bons27)</b>

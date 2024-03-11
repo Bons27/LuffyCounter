@@ -5,7 +5,7 @@ document.body.appendChild(container);
 //SFONDO
 const img = document.createElement("img");
 img.id = "big_video";
-img.src = "assets/img/";
+img.src = "assets/img/luffy.gif";
 img.alt = "luffy gif"
 container.appendChild(img);
 
@@ -86,19 +86,19 @@ function incrementaContatore(){
     contatore++;
     updateDisplay();
     if(contatore === 25) {
-        mostraAlert("/assets/img/luffygear2.png");
-        riproduciAudio("/assets/audio/gear2.mp3");
+        mostraAlert("assets/img/luffygear2.png");
+        riproduciAudio("assets/audio/gear2.mp3");
     }
     if(contatore === 50) {
-        mostraAlert("/assets/img/gearfourth.png");
-        riproduciAudio("/assets/audio/gear4.mp3");
+        mostraAlert("assets/img/gearfourth.png");
+        riproduciAudio("assets/audio/gear4.mp3");
     }
     if(contatore === 75) {
-        mostraAlert("/assets/img/luffygear5.png");
-        riproduciAudio("/assets/audio/luffygear5.mp3");
+        mostraAlert("assets/img/luffygear5.png");
+        riproduciAudio("assets/audio/luffygear5.mp3");
     }
     if(contatore === 100) {
-        mostraAlert("/assets/img/fatluffy.png");
+        mostraAlert("assets/img/fatluffy.png");
     }
 };
 
@@ -169,11 +169,11 @@ let bottone4 = creaBottone("Avvia");
 startButton.appendChild(bottone4);
 bottone4.addEventListener("click", function(){
     if(audioSfondo.paused) {
-        document.getElementById("big_video").src = '/assets/img/luffy.gif';
+        document.getElementById("big_video").src = 'assets/img/luffy.gif';
         audioSfondo.play();
         bottone4.textContent = "Interrompi";
     } else {
-        document.getElementById("big_video").src = '/assets/IMG/luffy.jpg';
+        document.getElementById("big_video").src = '/assets/img/luffy.jpg';
         audioSfondo.pause();
         audioSfondo.currentTime = 0;
         bottone4.textContent = "Avvia"
@@ -182,11 +182,11 @@ bottone4.addEventListener("click", function(){
 
 //AUDIO
 const suono = [
-    '/assets/audio/BinkSake.mp3',
-    '/assets/audio/monkeyDluffy.mp3',
-    '/assets/audio/gear2.mp3',
-    '/assets/audio/gear4.mp3',
-    '/assets/audio/luffygear5.mp3'
+    'assets/audio/BinkSake.mp3',
+    'assets/audio/monkeyDluffy.mp3',
+    'assets/audio/gear2.mp3',
+    'assets/audio/gear4.mp3',
+    'assets/audio/luffygear5.mp3'
 ];
 
 const audioBinksake = new Audio();
@@ -195,19 +195,19 @@ function riproduciBinkSake() {
     audioBinksake.src = suono[0];
 };
 
-let audioSfondo = new Audio ('/assets/audio/BinkSake.mp3')
+let audioSfondo = new Audio ('assets/audio/BinkSake.mp3')
 audioSfondo.addEventListener("ended", function() {
     audioSfondo.currentTime = 0;
     audioSfondo.play();
 });
 
-const audioReset = new Audio('/assets/audio/monkeyDluffy.mp3');
+const audioReset = new Audio('assets/audio/monkeyDluffy.mp3');
 
 function riproduciAudio(source) {
     let audio = new Audio(source);
     audio.play();
 }
 
-riproduciAudio("/assets/audio/gear2.mp3");
-riproduciAudio("/assets/audio/gear4.mp3");
-riproduciAudio("/assets/audio/luffygear5.mp3");
+// riproduciAudio("/assets/audio/gear2.mp3");
+// riproduciAudio("/assets/audio/gear4.mp3");
+// riproduciAudio("/assets/audio/luffygear5.mp3");

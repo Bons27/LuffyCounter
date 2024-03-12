@@ -4,7 +4,7 @@
 
 <i>Questo è un semplice contatore animato dedicato al personaggio di Monkey D. Luffy, il protagonista di One Piece.</i>
 
-<a href="https://bons27.github.io/LuffyCounter/">🏴‍☠️Provalo qui!🏴‍☠️
+<a href="https://bons27.github.io/LuffyCounter/" target = "_blank">🏴‍☠️Provalo qui!🏴‍☠️
 
 Funzionalità:<br>
 Il contatore può essere aumentato, diminuito o resettato utilizzando i pulsanti nella parte inferiore dello schermo.

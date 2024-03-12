@@ -4,6 +4,8 @@
 
 <i>Questo è un semplice contatore animato dedicato al personaggio di Monkey D. Luffy, il protagonista di One Piece.</i>
 
+<a href="https://bons27.github.io/LuffyCounter/"> Provalo qui!
+
 Funzionalità:<br>
 Il contatore può essere aumentato, diminuito o resettato utilizzando i pulsanti nella parte inferiore dello schermo.
 Quando il contatore raggiunge determinati valori <i>(25, 50 , 75 e 100)</i>, vengono visualizzate immagini e riprodotti suoni relativi alle varie forme di Luffy <b>(Gear Second, Gear Fourth, Gear Fifth)</b>.
